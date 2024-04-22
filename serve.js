@@ -17,24 +17,27 @@ app.use(express.static(__dirname + '/assets'));
 
 
 app.get("/", (req, res) => {
-
   res.render("home");
 });
 
-app.get("/cadastrar", function (reg, res) {
+app.get("/cadastrar", function (req, res) {
   res.render("cadastro.html");
 });
 
-app.get("/doar", function (reg, res) {
+app.get("/doar", (req, res) => {
   res.render("doar.html");
 });
-app.get("/junteSe", function (reg, res) {
+
+app.get("/junteSe", function (req, res) {
   res.render("junteSe.html");
 });
 
 app.get("/projeto", function (req, res) {
   res.render("projetoSocial.html")
-})
+});
+app.get("/sobre",function(req,res){
+  res.render("/quenSomos.html")
+});
 
 
 app.listen(port, () => {

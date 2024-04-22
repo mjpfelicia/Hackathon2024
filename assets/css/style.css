@@ -10,6 +10,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+.imgCarrosel1{
+  width:600px;
+   
+}
 .blog-header-logo {
     font-family: "Playfair Display", Georgia, "Times New Roman", serif;
     font-size: 2.25rem;
@@ -39,7 +43,7 @@ h1 {
 
 
 .hero-image {
-    background-image: url(https://static.wixstatic.com/media/bbd2f5_d8d0d3a6c0164d11b662fcac0246dd5a~mv2_d_5616_3744_s_4_2.jpg/v1/fill/w_980,h_856,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bbd2f5_d8d0d3a6c0164d11b662fcac0246dd5a~mv2_d_5616_3744_s_4_2.jpg);
+    background-image: url(../img/fomepraca.jpg);
     height: 300px;
     background-position: center;
     background-repeat: no-repeat;

@@ -2,20 +2,20 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href=" /css/style.css">
 
-    <title>Fazer doação</title>
+
+    <title>Sobre a ONG</title>
 </head>
 
 <body>
-
     <div class="container">
+        <!-- header -->
         <header class="blog-header py-3">
             <div class="row flex-nowrap justify-content-between align-items-center">
                 <div class="col-4 pt-1">
@@ -40,7 +40,7 @@
         <div class="nav-scroller py-1 mb-2">
             <nav class="nav d-flex justify-content-between">
                 <a class="p-2 text-muted" href="/junteSe">Junte-se à Causa</a>
-                <a class="p-2 text-muted" href="/sobreOmg">Sobre a ONG</a>
+                <a class="p-2 text-muted" href="/sobre">Sobre a ONG</a>
                 <a class="p-2 text-muted" href="#">Mundo</a>
                 <a class="p-2 text-muted" href="#">Parceiros</a>
                 <a class="p-2 text-muted" href="#">Negócios</a>
@@ -51,145 +51,14 @@
                 <a class="p-2 text-muted" href="/projeto">projetos sociais</a>
             </nav>
         </div>
-        <main role="main" class="container">
 
-            <section class="semFome">
+<!-- main -->
+        <main class="role">
 
-                <h2 class="text-info mb-3 py-5">Formulário de Doação</h2>
-
-                <h3 class="text-danger mb-3">Prezado Doador,</h3>
-                <p>Para fins de preenchimento na sua declaração de imposto de renda segue:</p>
-                <p>
-                    <span>Fundo Municipal da Criança e o Adolescente</span><br>
-                    <span>00.000.00/0000-00</span>
-                </p>
-                <p>A assinatura do recibo é válida em conformidade com a MP nº 0.000-0/000.</p><br>
-                <div class="conteudo mb-3">
-                    <div class="formulario mb-3">
-                        <h2 class="text-info py-4">Dados da Doação</h2>
-                        <div class="mb-3">
-                            <h6 class="mb-3 .text-secondary mt-3">Tipo de pessoa:</h6>
-                            <div class="col-md-6 mb-2">
-                                <input type="radio" name="TipoPessoa" value="PF" checked="checked">
-                                <label for="TipoPessoa_0">Pessoa Física</label>
-                            </div>
-                            <div class="col-md-6 mb-2">
-                                <input id="TipoPessoa_1" type="radio" name="TipoPessoa" value="PJ">
-                                <label for="TipoPessoa_1">Pessoa Jurídica</label>
-                            </div>
-                        </div>
-
-
-                        <div class="row mb-4">
-                            <div class="col-auto">
-                                <label for="txtValor" class="col-form-label">Valor (R$):</label>
-                            </div>
-                            <div class="col-auto">
-                                <input type="password" id="txtValor" class="form-control">
-                            </div>
-                        </div>
-
-                        <div class="mb-5">
-                            <h6 class="mb-3 .text-secondary mt-3">Receptor: </h6>
-                            <div class="col-md-6 mb-2">
-                                <input id="Fundo_0" type="radio" name="Fundo" value="1">
-                                <label for="Fundo_0">FM- Fundo Municipal</label>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <input id="Fundo_1" type="radio" name="Fundo" value="2">
-                                <label for="Fundo_1">OSC / Relação dos Projetos aprovados</label>
-                            </div>
-                        </div>
-
-                        <h3 class="text-danger mb-5">Dados Pessoais/Jurídicos</h3>
-                        <div class="mb-3">
-                            <label for="primeiroNome">Nome</label>
-                            <input type="text" class="form-control" id="primeiroNome">
-                            <div class="invalid-feedback">
-                                É obrigatório inserir um nome válido.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-6 mb-3">
-                                <label for="txtCPFCNPJ">CPF/CNPJ: </label>
-                                <input type="text" class="form-control" id="txtCPFCNPJ">
-                                <div class="invalid-feedback">
-                                    É obrigatório inserir CPF.
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="txtTelefone">Telefone: </label>
-                                <input type="text" class="form-control" id="txtTelefone">
-                                <div class="invalid-feedback">
-                                    Por favor, insira um estado válido.
-                                </div>
-                            </div>
-                        </div>
-                        <div class="mb-3">
-                            <label for="email">Email <span class="text-muted">(Opcional)</span></label>
-                            <input type="email" class="form-control" id="email" placeholder="fulano@exemplo.com">
-                            <div class="invalid-feedback">
-                                Por favor, insira um endereço de e-mail válido, para atualizações de entrega.
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-5 mb-3">
-                                <label for="pais">País</label>
-                                <select class="custom-select d-block w-100" id="pais" required="">
-                                    <option value="">Escolha...</option>
-                                    <option>Brasil</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Por favor, escolha um país válido.
-                                </div>
-                            </div>
-                            <div class="col-md-4 mb-3">
-                                <label for="estado">Estado</label>
-                                <select class="custom-select d-block w-100" id="estado" required="">
-                                    <option value="">Escolha...</option>
-                                    <option>Acre</option>
-                                </select>
-                                <div class="invalid-feedback">
-                                    Por favor, insira um estado válido.
-                                </div>
-                            </div>
-                            <div class="col-md-3 mb-3">
-                                <label for="cep">CEP</label>
-                                <input type="text" class="form-control" id="cep" placeholder="" required="">
-                                <div class="invalid-feedback">
-                                    É obrigatório inserir um CEP.
-                                </div>
-                            </div>
-                        </div>
-                        <br> <br>
-
-                        <div class="chekTexto">
-
-                            <input id="Compartilhar" type="checkbox" name="Compartilhar" checked="checked">
-                            <label for="Compartilhar">Permitir o compartilhamento dos meus dados pessoais
-                                com a Fundação de Ação Social para que seja possível a emissão da guia, de acordo com a
-                                Lei nº 000000000 (Lei de Acesso à Informação) e com a Lei nº 00000/000 (Lei que
-                                estabelece princípios, garantias, direitos e deveres para o uso da internet no
-                                Brasil).
-                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="red"
-                                    class="bi bi-question-circle" viewBox="0 0 16 16">
-                                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14m0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16" />
-                                    <path
-                                        d="M5.255 5.786a.237.237 0 0 0 .241.247h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286m1.557 5.763c0 .533.425.927 1.01.927.609 0 1.028-.394 1.028-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94" />
-                                </svg>
-                            </label>
-
-
-                        </div>
-                        <hr class="mb-4">
-                        <div class="paginacao">
-                            <button class="btn btn-info btn-lg btn-block" type="submit">Emitir Boleto</button>
-                        </div>
-                    </div>
-
-                </div>
-            </section>
         </main>
+
+
+<!-- footer -->
         <div class="container footer">
             <footer class="mt-5">
                 <div class="row">
@@ -273,19 +142,7 @@
                 </div>
             </footer>
         </div>
-
-
-
-
-        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-            integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-            crossorigin="anonymous"></script>
+    </div>
 
 </body>
 
