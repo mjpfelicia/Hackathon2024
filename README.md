@@ -1,6 +1,6 @@
 ## Hackathon2024
 
-<img src="/img/setehagaton7.png" alt="Site em Telas" />
+<img src="./img/setehagaton7.png" alt="Site em Telas" />
 
                  Welcome! 👋
 
